@@ -1,0 +1,55 @@
+body {
+  background-image: "../images/Animated Shape.svg";
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+#experince_tagline {
+  margin-top: 80px;
+  color: white;
+  text-shadow: 15px;
+  font-weight: bold;
+}
+#h1_Exprience {
+  margin-top: 120px;
+  color: white;
+  font-weight: bold;
+}
+
+.card {
+  max-width: 650px;
+  margin-top: 70px;
+  background-color: rgb(250, 248, 246);
+}
+.card img {
+  height: 300px;
+}
+.fotter {
+  background-color: black;
+  margin-top: 100px;
+  color: white;
+}
+#btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  transition: background 0.3s;
+}
+
+#btn:hover {
+  background: #0056b3;
+}
+@media (max-width: 768px) {
+  .card img {
+    height: 180px;
+  }
+}
