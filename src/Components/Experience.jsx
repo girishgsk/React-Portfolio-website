@@ -42,10 +42,16 @@ const Experience = () => {
           <div class="card-body">
             <h5 class="card-title">CMS Application with complete MERN</h5>
             <p class="card-text">
-              Developed a robust CMS application using the MERN stack, featuring
-              intuitive user interfaces, efficient content management, and full
-              CRUD functionality, empowering users to manage web content
-              seamlessly and effectively with Login and Signup Authentication.
+              <strong>1. </strong>Content management system is a software
+              application used to handle changes in website content creation,
+              enabling multiple authors to develop, update, and publish
+              material.
+              <br />
+              <strong>2. </strong> Developed a robust CMS application using the
+              MERN stack, featuring intuitive user interfaces, efficient content
+              management, and full CRUD functionality, empowering users to
+              manage web content seamlessly and effectively with Login and
+              Signup Authentication.
             </p>
             <Link
               to="https://github.com/girishgsk/CMS-Application-Backend"
@@ -79,6 +85,38 @@ const Experience = () => {
             </Link>
           </div>
         </div>
+
+        <div class="card mb-3">
+          <img
+            src={require("../images/Employee-registration.png")}
+            class="card-img-top"
+            alt="Employee Registration & Management"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Employee Registration & Management</h5>
+            <p class="card-text">
+              <strong>1. </strong> Developed the backend for an Employee
+              Registration application using Node.js and Express.js. The backend
+              features a RESTful API that supports all CRUD operations for
+              managing employee data. Each endpoint is secured and input
+              validation to ensure data integrity. The application interacts
+              with a MongoDB database using Mongoose.
+              <br />
+              <strong>2. </strong>Client side is handle using ReactJS. This
+              application includes comprehensive validation mechanisms to ensure
+              accurate and complete data entry during the employee registration
+              process.
+            </p>
+            <Link
+              to="https://github.com/girishgsk/Employee-Registration-FrontEnd"
+              target="blank"
+              class="btn btn-primary"
+            >
+              GitHub Link
+            </Link>
+          </div>
+        </div>
+
         <div class="card mb-3">
           <img
             src={require("../images/ConstructionWeb.png")}
@@ -98,6 +136,37 @@ const Experience = () => {
               class="btn btn-primary"
             >
               Live Link
+            </Link>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <img
+            src={require("../images/Regestration form.png")}
+            class="card-img-top"
+            alt="Employee Registration & Management"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Registration Form with Validations (MySQL)
+            </h5>
+            <p class="card-text">
+              <strong>1. </strong> Developed the backend for an Registration
+              application using Node.js and Express.js. The backend features a
+              RESTful API. Each endpoint is secured and input validation to
+              ensure data integrity. The application interacts with a MySQL
+              database.
+              <br />
+              <strong>2. </strong>Client side is handle using ReactJS. This
+              application includes comprehensive validation mechanisms to ensure
+              accurate and complete data entry during the registration process.
+            </p>
+            <Link
+              to="https://github.com/girishgsk/Tech-Assist-1"
+              target="blank"
+              class="btn btn-primary"
+            >
+              GitHub Link
             </Link>
           </div>
         </div>
