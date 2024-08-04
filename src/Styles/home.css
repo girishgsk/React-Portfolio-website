@@ -113,15 +113,15 @@ header {
     height: 1200px;
   }
   .social-icons img {
-    height: 30px;
-    width: 30px;
+    height: 36px;
+    width: 36px;
     margin: 2px;
   }
   .social-icons {
     margin-top: 30px;
   }
   .social-icons a {
-    margin: 5px;
+    margin: 13px;
   }
   .intro-image img {
     margin-top: 50px;

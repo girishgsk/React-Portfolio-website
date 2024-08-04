@@ -20,19 +20,6 @@ body {
   font-weight: bold;
 }
 
-.card {
-  max-width: 650px;
-  margin-top: 70px;
-  background-color: rgb(250, 248, 246);
-}
-.card img {
-  height: 300px;
-}
-.fotter {
-  background-color: black;
-  margin-top: 100px;
-  color: white;
-}
 #btn {
   display: inline-block;
   padding: 10px 20px;
@@ -48,8 +35,8 @@ body {
 #btn:hover {
   background: #0056b3;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .card img {
     height: 180px;
   }
-}
+} */

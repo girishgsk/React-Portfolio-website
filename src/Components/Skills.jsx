@@ -7,167 +7,273 @@ const Skills = () => {
     <>
       <div className="skill_container">
         <h1 id="Skill_tagline">Skills at a Glance</h1>
-        <div className="row row-cols-1 row-cols-md-2 g-4">
-          <div className="col">
+        <div className="row col-md-12 p-4">
+          <div
+            className="col-lg-6 col-12 mt-5"
+            // style={{
+            //   maxWidth: 500,
+            // }}
+          >
             <div className="card">
-              <div className="card-body card-body-skill">
+              <div className="card-body">
                 <h5 id="h5_card" className="card-title">
                   FrontEnd
                 </h5>
                 <p className="card-text">
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="button"
-                    value="ReactJS"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="submit"
-                    value="HTML"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="reset"
-                    value="Wordpress"
-                  />
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    ReactJS
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    HTML
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    Wordpress
+                  </div>
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="col">
+          <div className="col-lg-6 col-12 mt-5">
             <div className="card">
               <div className="card-body">
                 <h5 id="h5_card" className="card-title">
                   BackEnd
                 </h5>
                 <p className="card-text">
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="button"
-                    value="NodeJS"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="submit"
-                    value="ExpressJS"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="submit"
-                    value="HBS"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="reset"
-                    value="PHP"
-                  />
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    NodeJS
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    ExpressJS
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    HBS
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6 mt-2 "
+                  >
+                    PHP
+                  </div>
                 </p>
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-lg-6 col-12 mt-5">
             <div className="card">
               <div className="card-body">
                 <h5 id="h5_card" className="card-title">
                   Styling
                 </h5>
                 <p className="card-text">
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="button"
-                    value="CSS"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="submit"
-                    value="Bootstrap"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="reset"
-                    value="FlexBox"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="reset"
-                    value="SCSS"
-                  />
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    CSS
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6 "
+                  >
+                    Bootstrap
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    FlexBox
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6 mt-2"
+                  >
+                    SCSS
+                  </div>
                 </p>
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-lg-6 col-12 mt-5">
             <div className="card">
               <div className="card-body">
                 <h5 id="h5_card" className="card-title">
                   Database
                 </h5>
                 <p className="card-text">
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="button"
-                    value="MongoDB"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="submit"
-                    value="SQL"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="reset"
-                    value="MySQL"
-                  />
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    MongoDB
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6 "
+                  >
+                    SQL
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    MySQL
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6 mt-2"
+                  >
+                    Mongoose
+                  </div>
                 </p>
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-lg-6 col-12 mt-5">
             <div className="card">
               <div className="card-body">
                 <h5 id="h5_card" className="card-title">
                   Programming Languages
                 </h5>
                 <p className="card-text">
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="button"
-                    value="Javascript"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="submit"
-                    value="Python"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="reset"
-                    value="C++"
-                  />
-                  <input
-                    className="btn btn-primary"
-                    id="skill_btn"
-                    type="reset"
-                    value="C"
-                  />
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    Javascript
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6 "
+                  >
+                    Python
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    C++
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                    }}
+                    className="badge fs-6 mt-2"
+                  >
+                    C
+                  </div>
                 </p>
               </div>
             </div>
@@ -194,7 +300,7 @@ const Skills = () => {
             July 2020 - May 2024
           </div>
         </div>
-        <div className="card card_Education text-center">
+        <div className="card card_Education text-center mt-5">
           <div className="card-header">Disha Public School & Jr College</div>
           <div className="card-body">
             <h5 id="h5_card" className="card-title">
@@ -213,7 +319,7 @@ const Skills = () => {
             May 2018 - May 2020
           </div>
         </div>
-        <div className="card card_Education text-center">
+        <div className="card card_Education text-center mt-5">
           <div className="card-header">SRV Samarth Ramdas Vidyalaya</div>
           <div className="card-body">
             <h5 id="h5_card" className="card-title">

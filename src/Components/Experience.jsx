@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { ReactComponent as AnimatedSVG } from "../images/animatedShape.svg";
 import "../Styles/experience.css";
 
 const Experience = () => {
@@ -8,7 +7,10 @@ const Experience = () => {
     <>
       <div class="container">
         <h1 id="experince_tagline">Projects</h1>
-        <div class="card mb-3">
+        <div
+          class="card mb-3 mx-2 mt-5"
+          style={{ maxWidth: 750, marginTop: 70 }}
+        >
           <img
             src={require("../images/OnlineDeleviryProject1.png")}
             class="card-img-top"
@@ -33,7 +35,10 @@ const Experience = () => {
           </div>
         </div>
 
-        <div class="card mb-3">
+        <div
+          class="card mb-3 mx-2 mt-5"
+          style={{ maxWidth: 750, marginTop: 70 }}
+        >
           <img
             src={require("../images/CMS image.png")}
             class="card-img-top"
@@ -63,7 +68,10 @@ const Experience = () => {
           </div>
         </div>
 
-        <div class="card mb-3">
+        <div
+          class="card mb-3  mx-2 mt-5"
+          style={{ maxWidth: 750, marginTop: 70 }}
+        >
           <img
             src={require("../images/onlineDelivery2.png")}
             class="card-img-top"
@@ -86,7 +94,10 @@ const Experience = () => {
           </div>
         </div>
 
-        <div class="card mb-3">
+        <div
+          class="card mb-3 mx-2 mt-5"
+          style={{ maxWidth: 750, marginTop: 70 }}
+        >
           <img
             src={require("../images/Employee-registration.png")}
             class="card-img-top"
@@ -117,7 +128,10 @@ const Experience = () => {
           </div>
         </div>
 
-        <div class="card mb-3">
+        <div
+          class="card mb-3 mx-2 mt-5"
+          style={{ maxWidth: 750, marginTop: 70 }}
+        >
           <img
             src={require("../images/ConstructionWeb.png")}
             class="card-img-top"
@@ -140,7 +154,10 @@ const Experience = () => {
           </div>
         </div>
 
-        <div class="card mb-3">
+        <div
+          class="card mb-3 mx-2 mt-5"
+          style={{ maxWidth: 750, marginTop: 70 }}
+        >
           <img
             src={require("../images/Regestration form.png")}
             class="card-img-top"
@@ -171,7 +188,10 @@ const Experience = () => {
           </div>
         </div>
 
-        <div class="card mb-3">
+        <div
+          class="card mb-3 mx-2 mt-5"
+          style={{ maxWidth: 750, marginTop: 70 }}
+        >
           <img
             src={require("../images/TicTacToe.png")}
             class="card-img-top"
@@ -193,7 +213,10 @@ const Experience = () => {
             </Link>
           </div>
         </div>
-        <div class="card mb-3">
+        <div
+          class="card mb-3 mx-2 mt-5"
+          style={{ maxWidth: 750, marginTop: 70 }}
+        >
           <img
             src={require("../images/LoginSignup.png")}
             class="card-img-top"
@@ -214,7 +237,10 @@ const Experience = () => {
             </Link>
           </div>
         </div>
-        <div class="card mb-3">
+        <div
+          class="card mb-3 mx-2 mt-5 "
+          style={{ maxWidth: 750, marginTop: 70 }}
+        >
           <img
             src={require("../images/voiceControlChatbot.jpeg")}
             class="card-img-top"
@@ -231,7 +257,10 @@ const Experience = () => {
           </div>
         </div>
         <h1 id="h1_Exprience">Experiences</h1>
-        <div class="card card_Education text-center">
+        <div
+          class="card card_Education text-center mx-2 mt-5"
+          style={{ maxWidth: 650, marginTop: 70 }}
+        >
           <div class="card-header">Oasis Infobyt</div>
           <div class="card-body ">
             <h5 class="card-title">Full Stack Developer</h5>
@@ -256,7 +285,10 @@ const Experience = () => {
             January 2023 - February 2023
           </div>
         </div>
-        <div class="card card_Education text-center">
+        <div
+          class="card card_Education text-center mx-2 mt-5"
+          style={{ maxWidth: 650, marginTop: 70 }}
+        >
           <div class="card-header">Let’s Grow More</div>
           <div class="card-body ">
             <h5 class="card-title">Web Developer</h5>
@@ -281,7 +313,10 @@ const Experience = () => {
             March 2023 - April 2023
           </div>
         </div>
-        <div class="card card_Education text-center">
+        <div
+          class="card card_Education text-center mx-2 mt-5"
+          style={{ maxWidth: 650, marginTop: 70 }}
+        >
           <div class="card-header">Google Cloud</div>
           <div class="card-body ">
             <h5 class="card-title">Cloud Engineering</h5>

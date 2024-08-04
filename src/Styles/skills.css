@@ -5,18 +5,17 @@
   justify-content: center;
   align-items: center;
 }
-.col {
+/* .col {
   max-width: 500px;
-}
-.card {
+} */
+/* .card {
   max-width: 500px;
-}
+} */
 .row {
-  max-width: 900px;
+  max-width: 1000px;
   justify-items: center;
   justify-content: center;
   align-items: center;
-  /* margin-top: 40px; */
 }
 /*h1*/
 
@@ -46,7 +45,7 @@ h3 {
   font-weight: bold;
 }
 
-#skill_btn {
+.skill_btn {
   border-radius: 40px;
   margin-top: 20px;
   margin: 8px;
@@ -54,20 +53,20 @@ h3 {
 /* .card-body {
     margin-bottom: 5px;
   } */
-.card {
+/* .card {
   margin-bottom: 8px;
-}
+} */
 /* Education*/
-.cardbody_Edu {
+/* .cardbody_Edu {
   width: 550px;
-}
+} */
 .navbar-brand {
   font-size: 1rem;
 }
-.card {
+/* .card {
   background-color: rgb(250, 248, 246);
   margin-bottom: 8px;
-}
+} */
 #btn {
   display: inline-block;
   padding: 10px 20px;
@@ -85,13 +84,13 @@ h3 {
 }
 
 /* .row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-0.5 * var(--bs-gutter-x));
-    /* margin-left: calc(-.5* var(--bs-gutter-x)); */
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+} */
 /* 
 @media (max-width: 350px) {
   .col {
