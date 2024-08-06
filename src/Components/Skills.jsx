@@ -37,6 +37,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
@@ -48,6 +49,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
@@ -71,6 +73,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
@@ -82,6 +85,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
@@ -93,6 +97,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
@@ -104,6 +109,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6 mt-2 "
                   >
@@ -126,6 +132,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
@@ -137,6 +144,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6 "
                   >
@@ -148,6 +156,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
@@ -159,6 +168,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6 mt-2"
                   >
@@ -181,6 +191,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
@@ -192,6 +203,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6 "
                   >
@@ -203,6 +215,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
@@ -214,6 +227,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6 mt-2"
                   >
@@ -236,6 +250,7 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
@@ -247,6 +262,19 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
+                    }}
+                    className="badge fs-6"
+                  >
+                    Typescript
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6 "
                   >
@@ -258,21 +286,11 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                      marginTop: 10,
                     }}
                     className="badge fs-6"
                   >
                     C++
-                  </div>
-                  <div
-                    style={{
-                      padding: 12,
-                      marginRight: 10,
-                      backgroundColor: "rgb(25, 118, 210)",
-                      borderRadius: 20,
-                    }}
-                    className="badge fs-6 mt-2"
-                  >
-                    C
                   </div>
                 </p>
               </div>
