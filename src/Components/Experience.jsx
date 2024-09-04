@@ -179,11 +179,12 @@ const Experience = () => {
               accurate and complete data entry during the registration process.
             </p>
             <Link
-              to="https://github.com/girishgsk/Tech-Assist-1"
+              // to="https://github.com/girishgsk/Tech-Assist-1"
+              to="https://main--gskvalidregestration.netlify.app/"
               target="blank"
               class="btn btn-primary"
             >
-              GitHub Link
+              Live Link
             </Link>
           </div>
         </div>
