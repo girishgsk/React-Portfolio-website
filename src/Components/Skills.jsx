@@ -37,6 +37,17 @@ const Skills = () => {
                       marginRight: 10,
                       backgroundColor: "rgb(25, 118, 210)",
                       borderRadius: 20,
+                    }}
+                    className="badge fs-6"
+                  >
+                    React Native
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
                       marginTop: 10,
                     }}
                     className="badge fs-6"
@@ -113,7 +124,7 @@ const Skills = () => {
                     }}
                     className="badge fs-6 mt-2 "
                   >
-                    PHP
+                    Django
                   </div>
                 </p>
               </div>
@@ -231,7 +242,7 @@ const Skills = () => {
                     }}
                     className="badge fs-6 mt-2"
                   >
-                    Mongoose
+                    PostgreSQl
                   </div>
                 </p>
               </div>
@@ -291,6 +302,30 @@ const Skills = () => {
                     className="badge fs-6"
                   >
                     C++
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                      marginTop: 10,
+                    }}
+                    className="badge fs-6"
+                  >
+                    Linux
+                  </div>
+                  <div
+                    style={{
+                      padding: 12,
+                      marginRight: 10,
+                      backgroundColor: "rgb(25, 118, 210)",
+                      borderRadius: 20,
+                      marginTop: 10,
+                    }}
+                    className="badge fs-6"
+                  >
+                    Bash Script
                   </div>
                 </p>
               </div>

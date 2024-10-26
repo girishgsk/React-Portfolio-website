@@ -58,11 +58,11 @@ const Home = () => {
               />
             </Link>
 
-            <Link to="https://telegram.org/" target="blank">
+            <Link to="https://leetcode.com/u/Girishgsk1450/" target="blank">
               <img
                 id="fb_image"
-                src={require("../images/telegram.png")}
-                alt="Telegram"
+                src={require("../images/leetcode.png")}
+                alt="LeetCode"
               />
             </Link>
             <Link
