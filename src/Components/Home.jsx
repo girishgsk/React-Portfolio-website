@@ -28,7 +28,7 @@ const Home = () => {
           </p>
           <p></p>
           <Link
-            to="https://drive.google.com/file/d/1VlSHnYTbWC7_p7aNx-GPVo_1Fqkt-f-X/view?usp=drivesdk"
+            to="https://drive.google.com/file/d/1tpe68cjiOnXZ1nvs0zZlqIzS4qtI0Ikj/view?usp=drivesdk"
             target="blank"
             id="btn"
           >
